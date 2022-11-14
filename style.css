@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  font-family: "Press Start 2P", cursive;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+main {
+  height: 60vh;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.alert {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.alert * {
+  margin: 0 15px;
+}
+
+.alert-btn {
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
